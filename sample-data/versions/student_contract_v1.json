@@ -1,0 +1,25 @@
+{
+  "contract_name": "Student Attendance Contract",
+  "version": "1.0",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "integer"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "attendance": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "student_id",
+    "student_name",
+    "email",
+    "attendance"
+  ]
+}
